@@ -1,0 +1,10 @@
+service: Acuityscheduling #Name of your App
+
+provider:
+ name: aws
+ runtime: nodejs14.x # Node JS version
+ memorySize: 512
+ timeout: 15
+ stage: production
+ region: us-west-1 # AWS region
+
